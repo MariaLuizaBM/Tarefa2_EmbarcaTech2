@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "author": "MARIA LUIZA BRASIL MEDRADO",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-pi-pico-w", "id": "pico", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-servo", "id": "servo1", "top": 7.6, "left": 182.4, "attrs": {} }
+  ],
+  "connections": [
+    [ "pico:GP0", "$serialMonitor:RX", "", [] ],
+    [ "pico:GP1", "$serialMonitor:TX", "", [] ],
+    [ "pico:GND.8", "servo1:GND", "black", [ "h51.86", "v25.55" ] ],
+    [ "pico:3V3", "servo1:V+", "red", [ "h32.66", "v15.95" ] ],
+    [ "pico:GP22", "servo1:PWM", "blue", [ "h32.66", "v-41.65" ] ]
+  ],
+  "dependencies": {}
+}
