@@ -1,4 +1,4 @@
 [wokwi]
 version = 1
-firmware = 'build/pwm_irq.hex'
-elf = 'build/pwm_irq.elf'
+firmware = 'build\Tarefa2_Fase2.hex'
+elf = 'build\Tarefa2_Fase2.elf'
